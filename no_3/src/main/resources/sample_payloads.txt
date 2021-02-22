@@ -1,0 +1,31 @@
+1. Add Customer
+HTTP METHOD: POST
+URL: localhost:8080/customers
+Request Body: 
+{
+    "id":1,
+    "name":"Lucky",
+    "phone":"012391828727"
+}
+
+2. Update Customer
+HTTP METHOD: PUT
+URL: localhost:8080/customers
+Request Body:
+{
+    "id":1,
+    "name":"Lucky Pratama",
+    "phone":"0908726252562"
+}
+
+3. Get Customers
+HTTP METHOD: GET
+URL: localhost:8080/customers
+
+4. Get Customer by its ID
+HTTP METHOD: GET
+URL: localhost:8080/customers/1
+
+5. Delete Customer by its ID
+HTTP METHOD: DELETE
+URL: localhost:8080/customers/1
